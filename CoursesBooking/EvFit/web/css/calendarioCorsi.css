@@ -1,0 +1,73 @@
+@import url("./mainStyle.css");
+@import url("./mainStyleAdmin.css");
+body{
+	min-width:1300px;  
+}
+td, th{
+	min-width:375px;
+}
+
+.corso{
+	background-color:yellow;
+	cursor:pointer;
+}
+
+fieldset{
+	margin-right:20px;
+	width:400px;
+	position:absolute;
+	top:300px;
+	right:20px;
+	border: 2px solid gray;
+}
+label{
+	display:block;
+	margin:15px;
+}
+
+#menuBar{
+	margin-top:15px;
+	margin-left:10px;
+	border:2px solid black;
+	width:766px;
+}
+#wrapperTable{
+	margin-left:10px;
+}
+
+#bottoneAggiungi{
+	position:absolute;
+	top:150px;
+	right:10px;
+	height:80px;
+	width:160px;
+}
+#eliminaCorsi{
+	margin-right:20px;
+	width:300px;
+	height:60px;
+	position:absolute;
+	top:200px;
+	right:130px;
+}
+#confirmAddCourse{
+	margin-right:20px;
+	position:absolute;
+	top:-2px;
+	right:5px;
+	color:green;
+	font-size:20px;
+}
+#giorno{
+	width:50% !important;
+}
+#previous{
+	margin-left: 15% !important;
+}
+select{
+	min-width:165px;
+}
+
+#logo-1{
+	height:20px;
+}

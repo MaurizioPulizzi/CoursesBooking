@@ -1,0 +1,113 @@
+@import url("./mainStyle.css");
+@import url("./pannelloData.css");
+body{
+	background-image: url(./../img/Palestra.jpg);
+	min-width:800px;
+}
+
+#logo-1{
+	height:25px;
+}
+
+#tabellaPrenotazioni{
+	margin-top: 10px;
+	border-radius:12px;
+	border-style: solid;
+	background-color: white;
+	width: 70%;
+	margin-left: 15%;
+}
+.wrapperDati{
+	margin-top: 10px;
+	border-radius:10px;
+	border-style: ridge;
+	background-color: white;
+	width: 70%;
+	min-height: 500px;
+	margin-left: 15%;
+	padding-top:30px;
+	color:#1d2129;
+	border-color:#1d2129;
+	font-family:Helvetica,Arial,sans-serif;
+	font-weight:bolder;
+}
+.wrapperDati div{
+	padding:30px;
+	border-top:ridge;
+	font-size:16px;
+	position:relative;
+}
+.wrapperDati .titoloPagina{
+	border-style: none;
+	text-align:center;
+}
+.wrapperDati span{
+	position:absolute;
+	left:30%;
+	font-size:18px;
+	font-weight:normal;
+}
+.wrapperDati a{
+	float:right;
+	margin-right:5%;
+}
+
+td{
+	text-align:center;
+	width:220px;
+}
+th{
+	font-size: 20px;
+	color: rgb(30,30,30);;
+	margin: 0px;
+	padding-top:5px;
+	padding-bottom: 5px;
+	background-color:#dfe3ee;
+        width:120px;
+}
+.possibilePrenotare, .prenotato, .esaurito{
+	background-color: rgba(255, 69, 0, 0.75);
+	color: rgb(20,20,20);
+	border-radius:12px;
+	max-width:220px;
+	margin:0px;
+}
+.possibilePrenotare{
+	background-color: rgba(139,157,195,0.75);
+}
+.prenotato{
+	background-color: rgba(0, 128, 0, 0.75);
+}
+.esaurito{
+	background-color: rgba(255, 0, 0, 0.3);
+	color: rgba(20,20,20, 0.6);
+}
+.possibilePrenotare:hover{
+	background-color: rgb(139,157,195);
+}
+.prenotato:hover{
+	background-color: rgba(0, 128, 0, 1);
+}
+.nomeCorso{
+	font-family:Helvetica,Arial,sans-serif;
+	font-weight:bolder;
+	font-size:20px;
+}
+.postiDisponibili{
+	font-family:Helvetica,Arial,sans-serif;
+}
+
+.invioPren{
+	border-radius:5px;
+	border-style: outset;
+	margin-bottom:6px;
+	font-weight:bolder;
+	margin-left:3px;
+	margin-right:3px;
+	font-size: 12px;
+	width:145px;
+}
+.invioPren:hover{
+	box-shadow: 3px 3px 1px 1px rgba(255,255,255, 0.9);
+}
+

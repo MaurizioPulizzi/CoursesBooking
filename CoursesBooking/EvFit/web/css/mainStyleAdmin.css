@@ -1,0 +1,35 @@
+body{
+	position:relative;
+}
+
+table, th, td {
+   border: 3px solid;
+   border-collapse: collapse;
+  
+}
+th{
+	background-color:#8b9dc3;
+}
+
+#aree{
+	background-color:gray;
+	padding:15px;
+}
+
+#aree a{
+	padding:12px;
+	margin:2px;
+	background-color:lightGray;
+}
+#aree #corsi{
+	margin-left:80px;
+}
+
+.page_selected{
+	background-color:blue !important;
+	color:white;
+}
+a{
+	text-decoration:none;
+	color:black;
+}

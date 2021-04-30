@@ -1,0 +1,31 @@
+#intestazione{
+	background-color: #dfe3ee;
+}
+body{
+	margin: 0px;
+	background-color:#f7f7f7;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#logo{
+	height:80px;
+	margin-top:12px;
+	margin-left:35px;
+	
+}
+#profiloElogout{
+	float:right;
+	margin-right:10%;
+	margin-top:75px;
+}
+#profiloElogout a{
+	color:rgb(56,56,56);
+	margin: 8px;
+	text-decoration: none;
+	font-weight:	bold;
+	font-size: 16px;
+}
+#profiloElogout a:hover{
+	text-decoration: underline;
+	color: orange;
+}
