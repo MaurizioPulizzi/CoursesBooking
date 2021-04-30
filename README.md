@@ -5,4 +5,4 @@ Through the app the manager user can add or remove courses to the calendar. Gym 
 
 The application was created to practice JavaEE technologies.
 
-[These slides]() show an application use case and more details on the app architecture.
+[These slides](https://github.com/MaurizioPulizzi/CoursesBooking/blob/main/documentation/presentation.pdf) show an application use case and more details on the app architecture.
